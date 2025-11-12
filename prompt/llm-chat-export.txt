@@ -1,0 +1,87 @@
+PROMPT:
+Analyze this transaction and respond with ONLY 'Fraudulent' or 'Not Fraudulent'.
+
+    Transaction details:
+    - User: kundan 
+    - Amount: 200
+    - Location: indai
+    - Device: i phone
+
+RESPONSE:
+Not Fraudulent
+------------------------------------------------------------
+PROMPT:
+Analyze this transaction and respond with ONLY 'Fraudulent' or 'Not Fraudulent'.
+
+    Transaction details:
+    - User: kundan 
+    - Amount: 200
+    - Location: akjshdaishu
+    - Device: adshjhfja
+
+RESPONSE:
+Not Fraudulent
+------------------------------------------------------------
+PROMPT:
+Analyze this transaction and respond with ONLY 'Fraudulent' or 'Not Fraudulent'.
+
+    Transaction details:
+    - User: 43frewv
+    - Amount: 423
+    - Location: ewfq
+    - Device: eq
+
+RESPONSE:
+Not Fraudulent
+------------------------------------------------------------
+📤 PROMPT SENT TO GEMINI:
+Analyze this transaction and respond with ONLY 'Fraudulent' or 'Not Fraudulent'.
+
+    Transaction details:
+    - User: wewe
+    - Amount: 2
+    - Location: ewq
+    - Device: 23
+
+📥 RESPONSE RECEIVED:
+Not Fraudulent
+----------------------------------------------------------------------
+📤 PROMPT SENT TO GEMINI:
+You are a financial fraud detection assistant. 
+Your job is to classify a transaction as either **Fraudulent** or **Not Fraudulent** based on common fraud patterns.
+
+Analyze carefully using the transaction details below and follow these strict rules:
+- Output ONLY one word: **"Fraudulent"** or **"Not Fraudulent"** (no explanations).
+- Consider the following:
+    • Transactions much higher than user's usual range may be suspicious.
+    • If the location or device is unusual for this user, it could be fraud.
+    • If the merchant is known for risky categories (e.g., gambling, crypto), it could be fraud.
+    • Otherwise, assume it's a normal transaction.
+
+Here are some examples to learn the pattern:
+Example 1:
+User: Rahul
+Amount: 8000
+Location: New York
+Device: Unknown
+→ Fraudulent
+
+Example 2:
+User: Ananya
+Amount: 500
+Location: Delhi
+Device: iPhone 13
+→ Not Fraudulent
+
+Now, analyze the following transaction:
+
+User: a2sa
+Amount: 232
+Location: 22
+Device: 32
+
+Return only "Fraudulent" or "Not Fraudulent".
+
+📥 RESPONSE RECEIVED:
+Fraudulent
+----------------------------------------------------------------------

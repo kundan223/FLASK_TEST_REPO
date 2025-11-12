@@ -1,0 +1,7 @@
+Test Case 1:
+Input: user_name="Alice", amount=100, location="Delhi", device="iPhone"
+Expected: "Not Fraudulent"
+
+Test Case 2:
+Input: user_name="Bob", amount=9000, location="Unknown", device="Android"
+Expected: "Fraudulent"
